@@ -12,7 +12,7 @@ const OurTeam = () => {
           <span className="text-green-500">Enthusiastic</span> individuals{' '}
           <span className="text-red-500">working</span>{' '}
           <span className="text-blue-500">together</span>
-          to take your ideas to <span className="text-yellow-300">life</span>
+          to take your ideas to <span className="text-yellow-600">life</span>
         </p>
       </div>
       {/* CEO */}

@@ -54,18 +54,18 @@ const defaultMembers: TeamMemberProps[] = [
       twitter: 'https://twitter.com/johndoe'
     }
   },
-  {
-    teamImg: '/jpg/blessed.jpg',
-    name: 'Blessed Akhigbe',
-    position: 'Frontend Development Lead',
-    className: 'bg-red-200/30',
-    description:
-      'Mr. Blessed Akhigbe is a dedicated frontend developer with a keen eye for detail. His work in creating responsive and accessible web applications has been invaluable to our team.',
-    socialLinks: {
-      linkedin: 'https://www.linkedin.com/in/akano-oluwasola',
-      twitter: 'https://twitter.com/johndoe'
-    }
-  },
+  // {
+  //   teamImg: '/jpg/blessed.jpg',
+  //   name: 'Blessed Akhigbe',
+  //   position: 'Frontend Development Lead',
+  //   className: 'bg-red-200/30',
+  //   description:
+  //     'Mr. Blessed Akhigbe is a dedicated frontend developer with a keen eye for detail. His work in creating responsive and accessible web applications has been invaluable to our team.',
+  //   socialLinks: {
+  //     linkedin: 'https://www.linkedin.com/in/akano-oluwasola',
+  //     twitter: 'https://twitter.com/johndoe'
+  //   }
+  // },
   {
     teamImg: '/png/uthman2.png',
     name: 'Adebari Uthman Titilope',

@@ -48,7 +48,7 @@ const Card: React.FC<TestimonialCardProps> = ({
   imgurl,
   testimonial
 }) => (
-  <div className="flex flex-col h-[220px] bg-[#F600005E] p-6 rounded-lg shadow mx-2">
+  <div className="flex flex-col h-[230px] bg-[#F600005E] p-6 rounded-lg shadow mx-2">
     <div className="flex items-center mb-4 gap-5">
       <img src={imgurl} alt="" className="w-12 h-12 rounded-full" />
       <div className="flex flex-col">
