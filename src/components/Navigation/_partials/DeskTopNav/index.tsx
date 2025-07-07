@@ -59,28 +59,22 @@ const DeskTopNav: React.FC = () => {
     setCurrent(e.key);
     navigate(e.path);
   };
-  // style for the menu items
-  const menuStyle = {
-    all: 'text-[#3783FF] text-lg font-semibold hover:border-b-2 border-blue-500 transition duration-300',
-    selected: 'text-blue-500 border-b-2 border-blue-500'
-  };
   
   return (
     <div className="flex flex-col gap-8 md:flex-row md:gap-4 ">
       {menuItems.map((item, index) => {
         return (
-          <Link
-            to={item.path}
-            key={index}
-            onClick={() => handleMenuClick(item)}
-            className={
-              current === item.key
-                ? `${menuStyle.all} ${menuStyle.selected}`
-                : menuStyle.all
-            }
-          >
-            {item.label}
-          </Link>
+          <div className='relative group' key={index}>
+            <Link
+              to={item.path}
+              key={index}
+              onClick={() => handleMenuClick(item)}
+              className={`text-blue-500 text-lg font-semibold hover:text-blue-300 transition-colors duration-300`}
+            >
+              {item.label}
+            </Link>
+            <div className={`absolute bottom-0 left-0 h-[2px] opacity-0 w-0 rounded-md bg-blue-500 transition-all duration-500 ${current === item.key && 'opacity-100 w-full'}`}></div>
+          </div>
         );
       })}
     </div>

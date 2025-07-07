@@ -46,7 +46,7 @@ const defaultMembers: TeamMemberProps[] = [
     teamImg: '/png/Iyanu2.png',
     name: 'Iyanu Ajimobi',
     position: 'Backend Developer/Technical Lead',
-    className: 'bg-[#F6000052]',
+    className: 'bg-[#7c606c52]',
     description:
       'Mr. Iyanu Ajimobi is a skilled backend developer with a deep understanding of system architecture and cloud technologies. His leadership in technical projects has been pivotal in achieving our goals.',
     socialLinks: {
@@ -58,7 +58,7 @@ const defaultMembers: TeamMemberProps[] = [
     teamImg: '/png/israel.png',
     name: 'Israel Evwerhamre',
     position: 'Backend Developer',
-    className: 'bg-[#F4909052]',
+    className: 'bg-[#34516152]',
     description:
       'Mr Isreal Evwerhamre is a detail-oriented Back-end developer, proficient in Javasript, HTML, CSS, and Node.Js, with a passion for creating high performance web applications.',
     socialLinks: {
@@ -89,19 +89,34 @@ const defaultMembers: TeamMemberProps[] = [
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/ifunanya-chidimma-2702911b1',
       twitter: 'https://x.com/Ifunayach35394'
-    }
+    },
+    imageSize: '!object-cover'
   },
   {
     teamImg: '/png/isabella.png',
     name: 'Isabella Chiamaka',
     position: 'Digital Marketer',
-    className: 'bg-[#FF8C0052]',
+    className: 'bg-[#F6000052]',
     description:
       'Miss Isabella Ngonadi has an experience in administrative support, customer support, career strategy and digital marketing skill to help grow businesses. ',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/isabellangonadi',
       twitter: 'https://x.com/spicyy_amaka1'
     }
+  },
+
+  {
+    teamImg: '/png/eniola.png',
+    name: 'Odusanmi Eniola',
+    position: 'Social Media Strategist',
+    className: 'bg-[#FF8C0052]',
+    description:
+      'Miss Odusanmi Eniola is a creative social media strategist, customer support and digital strategist, utilizing her talent and skills to help grow businesses.',
+    socialLinks: {
+      linkedin: 'https://www.linkedin.com/in/eniola-odusami-a439802b8',
+      twitter: 'https://x.com/EnnyLois'
+    },
+    imageSize: '!object-cover'
   },
 ];
 
