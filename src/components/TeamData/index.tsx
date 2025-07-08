@@ -95,7 +95,7 @@ const defaultMembers: TeamMemberProps[] = [
   {
     teamImg: '/png/isabella.png',
     name: 'Isabella Chiamaka',
-    position: 'Digital Marketer',
+    position: 'Business Analyst',
     className: 'bg-[#F6000052]',
     description:
       'Miss Isabella Ngonadi has an experience in administrative support, customer support, career strategy and digital marketing skill to help grow businesses. ',
@@ -107,7 +107,7 @@ const defaultMembers: TeamMemberProps[] = [
 
   {
     teamImg: '/png/eniola.png',
-    name: 'Odusanmi Eniola',
+    name: 'Odusami Eniola',
     position: 'Social Media Strategist',
     className: 'bg-[#FF8C0052]',
     description:
