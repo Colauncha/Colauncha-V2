@@ -61,10 +61,10 @@ const TalentRequest = () => {
 
       // Append other fields
       Object.entries(values).forEach(([key, value]) => {
-        if (key === 'upload' && Array.isArray(value)) {
+        if (key === 'attachment' && Array.isArray(value)) {
           value.forEach((file) => {
             if (file.originFileObj) {
-              formData.append('files', file.originFileObj); // Changed key to 'files'
+              formData.append('attachment', file.originFileObj); // Changed key to 'files'
             }
           });
         } else if (key !== 'phone' && value !== undefined && value !== null) {

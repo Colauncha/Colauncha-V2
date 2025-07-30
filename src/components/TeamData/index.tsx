@@ -77,7 +77,7 @@ const defaultMembers: TeamMemberProps[] = [
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/adebari-uthman-titilope-377961260',
       twitter: 'https://x.com/'
-    }
+    },
   },
   {
     teamImg: '/png/ify2.png',
