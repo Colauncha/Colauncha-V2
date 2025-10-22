@@ -58,7 +58,7 @@ const animateBtn = {
     }
   },
   inView: {
-    y: [0, -10, 0],
+    y: [0, 0, 0],
     transition: {
       duration: 4,
       repeat: Infinity,
