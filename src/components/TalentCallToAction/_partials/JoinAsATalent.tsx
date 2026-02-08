@@ -1,5 +1,5 @@
 import { Divider, Button } from 'antd';
-import { motion } from 'framer-motion';
+import { easeOut, motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useNavigate } from 'react-router';
 
@@ -23,14 +23,14 @@ const JoinAsATalent = () => {
       transition: {
         duration: 1.5,
         delay: 1,
-        ease: 'easeOut'
+        ease: easeOut
       }
     },
     hover: {
       scale: 1.1,
       transition: {
         duration: 0.4,
-        ease: 'easeOut'
+        ease: easeOut
       }
     },
     View: {
@@ -39,7 +39,7 @@ const JoinAsATalent = () => {
         duration: 1.5,
         repeat: Infinity,
         delay: 1,
-        ease: 'easeOut'
+        ease: easeOut
       }
     }
   };

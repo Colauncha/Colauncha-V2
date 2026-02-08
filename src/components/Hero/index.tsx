@@ -1,6 +1,6 @@
 import { Button } from 'antd';
 import { useNavigate } from 'react-router';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, easeOut, cubicBezier } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
 
@@ -23,7 +23,7 @@ const backgroundVariants = {
     scale: 1,
     transition: {
       duration: 6,
-      ease: [0.1, 0.4, 0.68, 1]
+      ease: cubicBezier(0.1, 0.4, 0.68, 1)
     }
   },
   exit: {
@@ -31,7 +31,7 @@ const backgroundVariants = {
     scale: 1,
     transition: {
       duration: 2.5,
-      ease: [0.1, 0.4, 0.68, 1]
+      ease: cubicBezier(0.1, 0.4, 0.68, 1)
     }
   }
 };
@@ -47,14 +47,14 @@ const animateBtn = {
     transition: {
       duration: 1.5,
       delay: 1,
-      ease: 'easeOut'
+      ease: easeOut
     }
   },
   hover: {
     scale: 1.1,
     transition: {
       duration: 0.4,
-      ease: 'easeOut'
+      ease: easeOut
     }
   },
   inView: {
@@ -63,14 +63,14 @@ const animateBtn = {
       duration: 4,
       repeat: Infinity,
       delay: 2.8,
-      ease: 'easeOut'
+      ease: easeOut
     }
   },
   Tap: {
     Transform: 'translatY(360deg)',
     transition: {
       duration: 0.2,
-      ease: 'easeOut'
+      ease: easeOut
     }
   }
 };

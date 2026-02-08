@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { easeIn, motion } from 'framer-motion';
 
 const stackList = [
   {
@@ -39,7 +39,7 @@ const scrollLeftAnimation = {
     x: '-100%',
     transition: {
       duration: 20,
-      ease: 'linear',
+      ease: easeIn,
       repeat: Infinity
     }
   }

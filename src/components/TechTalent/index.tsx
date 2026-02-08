@@ -1,5 +1,6 @@
 import { Button } from 'antd';
-import { motion } from 'framer-motion';
+import { easeOut, motion } from 'framer-motion';
+
 const techTalentData = [
   {
     id: 1,
@@ -45,14 +46,14 @@ const arrowAnimationStates = {
     transition: {
       duration: 1.5,
       delay: 1,
-      ease: 'easeOut'
+      ease: easeOut
     }
   },
   hover: {
     scale: 1.1,
     transition: {
       duration: 0.4,
-      ease: 'easeOut'
+      ease: easeOut
     }
   },
   View: {
@@ -61,7 +62,7 @@ const arrowAnimationStates = {
       duration: 1.5,
       repeat: Infinity,
       delay: 1,
-      ease: 'easeOut'
+      ease: easeOut
     }
   }
 };

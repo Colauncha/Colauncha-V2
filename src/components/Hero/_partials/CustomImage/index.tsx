@@ -1,5 +1,6 @@
 import { Carousel } from 'antd';
 import { motion as modtion } from 'framer-motion';
+import { easeInOut } from 'framer-motion';
 
 const animatedTextVariants = {
   hidden: {
@@ -11,7 +12,7 @@ const animatedTextVariants = {
     scale: 1,
     transition: {
       duration: 0.9,
-      ease: 'easeInOut'
+      ease: easeInOut
     }
   },
   inView: {
@@ -19,7 +20,7 @@ const animatedTextVariants = {
     scale: 1,
     transition: {
       duration: 0.95,
-      ease: 'easeInOut',
+      ease: easeInOut,
       staggerChildren: 0.1 // Optional: if you have child animations
     }
   }

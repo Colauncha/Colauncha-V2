@@ -1,5 +1,5 @@
 import { Button, Carousel } from 'antd';
-import { motion } from 'framer-motion';
+import { easeInOut, motion } from 'framer-motion';
 import { useNavigate } from 'react-router';
 
 const carouselData = [
@@ -25,7 +25,7 @@ const animatedTextVariants = {
     scale: 1,
     transition: {
       duration: 0.9,
-      ease: 'easeInOut'
+      ease: easeInOut
     }
   },
   inView: {
@@ -33,7 +33,7 @@ const animatedTextVariants = {
     scale: 1,
     transition: {
       duration: 0.95,
-      ease: 'easeInOut',
+      ease: easeInOut,
       staggerChildren: 0.1 // Optional: if you have child animations
     }
   }

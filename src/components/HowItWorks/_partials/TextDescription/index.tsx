@@ -1,5 +1,5 @@
 import { Button, Card, Divider, Typography } from 'antd';
-import { motion } from 'framer-motion';
+import { easeInOut, easeOut, motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useNavigate } from 'react-router';
 
@@ -26,7 +26,7 @@ const HowItWorksTexts = () => {
       transition: {
         duration: 1.2,
         delay: 0.5,
-        ease: 'easeOut'
+        ease: easeOut
       }
     },
     hover: {
@@ -34,7 +34,7 @@ const HowItWorksTexts = () => {
       x: 5,
       transition: {
         duration: 0.3,
-        ease: 'easeOut'
+        ease: easeOut
       }
     },
     floating: {
@@ -42,7 +42,7 @@ const HowItWorksTexts = () => {
       transition: {
         duration: 2,
         repeat: Infinity,
-        ease: 'easeInOut'
+        ease: easeInOut
       }
     }
   };
